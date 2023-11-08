@@ -14,5 +14,11 @@ public class TwoDimensionalArray {
                 }
             }
         }
+        for (int[] row : nums) {
+            for (int num : row) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
     }
 }
