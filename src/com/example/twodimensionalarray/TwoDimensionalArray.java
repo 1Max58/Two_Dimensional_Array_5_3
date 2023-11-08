@@ -20,5 +20,10 @@ public class TwoDimensionalArray {
             }
             System.out.println();
         }
+        int sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i][i];
+        }
+        System.out.println("The sum of the elements on the diagonal is " + sum);
     }
 }
